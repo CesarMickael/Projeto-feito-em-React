@@ -1,0 +1,68 @@
+.container-banner img {
+    width: 600px;
+
+}
+
+.container-banner {
+    position: relative;
+    background-color: #f9db79;
+
+
+}
+
+.title {
+    position: absolute;
+    font-size: 40px;
+    color: #ffffff;
+    bottom: 260px;
+    left: 0px;
+    text-shadow: 4px 4px 2px #464545;
+}
+
+@media (max-width: 425px) {
+    .title {
+        font-size: 25px;
+        left: 20px;
+        bottom: 180px;
+        max-width: 50%;
+        text-align: justify;
+    }
+
+    .container-banner img {
+        max-width: 100%;
+    }
+}
+
+@media  (min-width: 426px) and (max-width: 768px) {
+    .title {
+        font-size: 30px;
+        left: 20px;
+        bottom: 220px;
+        max-width: 50%;
+        text-align: justify;
+    }
+
+    .container-banner img {
+        max-width: 100%;
+    }
+    .container-banner {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 769px) {
+    .title {
+        font-size: 40px;
+        left: 30px;
+        bottom: 260px;
+        max-width: 50%;
+        text-align: justify;
+    }
+
+    .container-banner img {
+        max-width: 100%;
+    }
+    .container-banner {
+        max-width: 100%;
+    }
+}
